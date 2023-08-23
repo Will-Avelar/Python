@@ -68,7 +68,8 @@ ponto_flutuante = 123.456
 print(texto,"\n", numeros_inteiros,"\n", ponto_flutuante)
 
 #Obs, procurar sempre usar palavras SEMANTICAS para as variaáveis
-#O nome de um variável pode ser composto, pode ser longo w pode conter letras e números 
+#O nome de um variável pode ser composto, pode ser longo e pode conter letras e números, 
+#mas sempre iniciar por letra minusculae nunca com numeros e não podem conter caracteres especiais 
 #Isso faz parte da conveção de Python, mas não podemos escrever por exemplo palavras reservadas ou palavras com espaços 
 #Para Separar as palavras devemos usar _ Underscore esse padrão é chamado se Snake Case 
 #Caso nomeamos uma variável incorretamente o interpretador irá acusar um erro 
@@ -86,3 +87,42 @@ C:\Ws.will\Python> & C:/Users/willa/AppData/Local/Programs/Python/Python311/pyth
 SyntaxError: invalid syntax
 PS C:\Ws.will\Python>
 '''
+#Palavras chaves reservadas 
+#and, del, from, none, true, as, elif, global, nonlocal, try, assert, else, if, not, while, break, except
+# import, or, with, class, false, in, pass, yield, continue, finaly, is, raisw, def, for lambda, retorn
+#Portanto não pode usar essas palavras para nomear variáveis  
+
+#OPERADORES ARITMÉTICOS
+
+# Adição + 
+# Subtração -
+# Multiplicação *
+# Divisão /
+# POtênciação **
+
+#Quando digitamos uma expressão o interpretador irá resolver e nos devolver o resultado 
+# Segue abeixo alguns exemplos 
+
+print (1 + 1)
+print (2 - 1)
+print (3 * 2)
+print (4 / 2)
+print (10 ** 2)
+
+x = 1 
+y = 3
+print(x + y)
+print(x - y)
+print(x * y)
+print(y / x)
+print(y ** x)
+
+#Além desses operados temos o operador do resto da divisão representado por //
+
+print(3 // 2) # Nesse exemplo restou 1 esse 1 é o resto da divisão
+
+#Tambem temos o operador módulo % que resulta no resto da divisão entre dois numeros inteiros
+
+print(7 % 3)  # 7 dividido ppor 3 é igual a 2 o resto é o 1, esse operador é bem util quando queremos saber se um numero é divisivel por outro
+
+
