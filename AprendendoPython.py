@@ -257,3 +257,14 @@ else:
   print("Voce Errou.")
   #Temos que tomar cuidade pq nem toda str pode ser convertida para int
   
+  numero = 42
+chute = input("Digite um numero: ")
+chute = int(chute) #neste caso estamos convertendo o valor de 42 para um numero inteiro qpe se não o pyhton vai entender que é uma str
+
+if(chute > numero):
+    print("Você errou, su chute foi maior que o numero secreto")
+else: 
+    print("Seu chute foi menor que o numero secreto")
+if (chute == numero):
+    print("Meus Parabéns!")
+
